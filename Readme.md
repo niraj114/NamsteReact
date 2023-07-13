@@ -17,12 +17,23 @@ npx parcel index.html -- to run project
 
 npm install react
 
+
+
+// Error 
+@parcel/transformer-js: Browser scripts cannot have imports or exports.
+ // ℹ Add the type="module" attribute to the <script> tag.
+ // then delete parcel cache it still exist some issue
+
 #parcel
-  Dev build
-  local Server
-  HMR= hot Module Replacment
-  File Watching Algorithm - writen in c++
-  Caching - faster Builds
-  
+  - Dev Build
+  - Local Server
+  - HMR= Hot Module Replacment
+  - File Watching Algorithm - Writen in c++
+  - Caching - Faster Builds
+  - image Optimization
+  - Minification
+  - BUndling 
+  - Compress
+
  
  
