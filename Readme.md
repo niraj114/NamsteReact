@@ -33,7 +33,20 @@ npm install react
   - image Optimization
   - Minification
   - BUndling 
-  - Compress
+  - Compressitent Hashing
+  - Code spliting 
+  - Defferential Bundling - support older browser
+  - Diagnostic
+  - Error Handling
+  - HTTPS
+  - Tree Shaking - remove unsed code 
+  - Deffferent dev and prod bundle
+
+  Note :- We have remove "Main"="App.js" from json
+
+  npx parcel build index.html - once u run this command. it will create minified file(Does a lot of things behind the scene) inside dist folder
+
+  --BrowserList - using this attribute in the package.json we can configure browser suport, which which browser will support  
 
  
  
